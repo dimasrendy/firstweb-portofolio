@@ -40,3 +40,19 @@ function scrollActive() {
         }
     })
 }
+
+//SCROLL REVEAL ANIMATION
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+})
+
+//SCROLL REVEAL HOME
+sr.reveal('.home_title', {});
+sr.reveal('.home_scroll', {delay: 200});
+sr.reveal('.home_img', {origin: 'bottom', delay: 400});
+
+//SCROLL REVEAL ABOUT
+sr.reveal('.about_img', {distance: '100px'});

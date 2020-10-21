@@ -9,7 +9,7 @@
 
 /* COLOR */
 :root {
-    --first-color: #5361FF;
+    --first-color: #ff5353;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -422,7 +422,7 @@ img {
     }
 
     .about_img img {
-        width: 150px;
+        width: 140px;
     }
 
     .about_social-icon {
@@ -442,5 +442,12 @@ img {
     .footer_container {
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bd-grid {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
